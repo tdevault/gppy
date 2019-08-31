@@ -9,4 +9,5 @@ class gptree:
     def __init__(self):
         self.children = []
 
-    def
+    def numChild(self):
+        return 1
