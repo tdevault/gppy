@@ -10,4 +10,4 @@ class gptree:
         self.children = []
 
     def numChild(self):
-        return 1
+        return len(self.children)
