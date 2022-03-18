@@ -22,9 +22,10 @@ class gptree:
                 n.value = random.choice(self.NonTerminalSet)
                 while currentdepth < maxdepth:
                     for i in range(self.getArrity(self.Root)):
-                        self.
+                        pass
 
     def tostring(self):
+        pass
 
     def numChild(self, n):
         if n.children is None:
